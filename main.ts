@@ -35,10 +35,11 @@ class CarsStore {
     }
 
 }
-const newStore:CarsStore = new CarsStore("los angeles","usa","yoshida",[{brend:"toyota",doorNumbers:4,wheelsNumber:4},{brend:"truck",doorNumbers:2,wheelsNumber:6},{brend:"tesla",doorNumbers:4,wheelsNumber:4}])
+console.log(const newStore:CarsStore = new CarsStore("los angeles","usa","yoshida",[{brend:"toyota",doorNumbers:4,wheelsNumber:4},{brend:"truck",doorNumbers:2,wheelsNumber:6},{brend:"tesla",doorNumbers:4,wheelsNumber:4}]))
 
 class Garag extends CarsStore {
     constructor(city:string,country:string,storeName:string,carsArray:ICar[]){
         super(city,country,storeName,carsArray)
+        
     }
 }
