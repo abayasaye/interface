@@ -72,16 +72,16 @@
 // }
 //  genericFunc <string> ("hello world",4 )
 
-function printGeneric <T,W>(genString:T,genNum:W,someBool:boolean):T{
-    let newGen:T = "abay"
-   return someBool?genString:newGen;
-}
-console.log(printGeneric<string,number>("beautifull world",2022 ,false))
- class User<T> {
-    id:T
-    constructor(id:T){
-        this.id = id;
-    }
- }
- let newUser:User<boolean>= new User<boolean>(true)
- let newUser21:User<string>= new User<string>("true")
+// function printGeneric <T,W>(genString:T,genNum:W,someBool:boolean):T{
+//     let newGen:T = "abay"
+//    return someBool?genString:newGen;
+// }
+// console.log(printGeneric<string,number>("beautifull world",2022 ,false))
+//  class User<T> {
+//     id:T
+//     constructor(id:T){
+//         this.id = id;
+//     }
+//  }
+//  let newUser:User<boolean>= new User<boolean>(true)
+//  let newUser21:User<string>= new User<string>("true")
