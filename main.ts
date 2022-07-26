@@ -65,12 +65,12 @@
 
 
 
-// function genericFunc< T >(gen:T , num:number){
-//     for(let i = 0;i<num; i++){
-//         console.log(gen)
-//     }
-// }
-//  genericFunc <string> ("hello world",4 )
+function genericFunc< T >(gen:T , num:number){
+    for(let i = 0;i<num; i++){
+        console.log(gen)
+    }
+}
+ genericFunc <string> ("hello world",4 )
 
  function printGeneric < T ,W>(genString:T,genNum:W,someBool:boolean):T{
     return someBool? genString:return let newgen:T  
