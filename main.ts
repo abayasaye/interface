@@ -65,18 +65,18 @@
 
 
 
-function genericFunc< T >(gen:T , num:number){
-    for(let i = 0;i<num; i++){
-        console.log(gen)
-    }
+// function genericFunc< T >(gen:T , num:number){
+//     for(let i = 0;i<num; i++){
+//         console.log(gen)
+//     }
+// }
+//  genericFunc <string> ("hello world",4 )
+
+function printGeneric <T,W>(genString:T,genNum:W,someBool:boolean):T{
+    let newGen:T = "abay"
+   return someBool?genString:newGen;
 }
- genericFunc <string> ("hello world",4 )
-
- function printGeneric < T ,W>(genString:T,genNum:W,someBool:boolean):T{
-    return someBool? genString:return let newgen:T  
- }
- console.log(printGeneric<string,number>("beautifull world",2022 ,true))
-
+console.log(printGeneric<string,number>("beautifull world",2022 ,false))
  class User<T> {
     id:T
     constructor(id:T){
